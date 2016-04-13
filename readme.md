@@ -8,11 +8,7 @@ To install use:
 
 `pip install generic_oauth`
 
-Typically, OAuth services are used by web-apps becuase the protocol requires use of a browser. This can be frustrating for people who want to build simple, command-line programs that use OAuth APIs. 
-
-Let's say you want to use Spotify's API, to get data on the music you listen to. You shouldnt have to build a web-app first. 
-
-Using `generic_oauth` you can authenticate your app to use an OAuth API directly from your python program. 
+Typically, OAuth services are used by web-apps becuase the protocol requires use of a browser. This can be frustrating for people who want to build simple, command-line programs that use OAuth APIs. Let's say you want to use Spotify's API, to get data on the music you listen to. You shouldnt have to build a web-app first. Using `generic_oauth` you can authenticate your app to use an OAuth API directly from your python program. 
 
 The following implementations included: 
 
