@@ -2,7 +2,7 @@
 
 ## Description
 
-`generic_oauth` provides synchronous OAuth 2.0 authentication for python programs.  With any of the provided implementations you can get an access token for an OAuth service in just 2 lines of code.
+`generic_oauth` provides synchronous OAuth 2.0 authentication for command-line python programs.  With any of the provided implementations you can get an access token for an OAuth service in just 2 lines of code.
 
 To install use: `pip install generic_oauth`
 
