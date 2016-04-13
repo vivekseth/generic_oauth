@@ -2,17 +2,19 @@
 
 ## Description
 
-`generic_oauth` makes it extremely simple to use any OAuth v2 API purely from the command line. With any of the provided implementations you can get an access token in just 2 lines of code.
+`generic_oauth` provides synchronous OAuth 2.0 authentication for python programs.  With any of the provided implementations you can get an access token for an OAuth service in just 2 lines of code.
 
-To install just use:
+To install use:
 
 `pip install generic_oauth`
 
-Typically browsers are a required component of the Oauth flow—APIs use html pages to allow users to grant permisson to third party apps to make requests on their behalf. This makes it easy for web-apps to use oauth apis, but difficult and clunkly for command-line apps to use these services. 
+Typically, OAuth services are used by web-apps becuase the protocol requires use of a browser. This can be frustrating for people who want to build simple, command-line programs that use OAuth APIs. 
 
-With `generic_oauth` you can synchronosly generate access_tokens for any oauth api with just a few lines of code. 
+Let's say you want to use Spotify's API, to get data on the music you listen to. You shouldnt have to build a web-app first. 
 
-Implementations included: 
+Using `generic_oauth` you can authenticate your app to use an OAuth API directly from your python program. 
+
+The following implementations included: 
 
 - Google
 - Github
