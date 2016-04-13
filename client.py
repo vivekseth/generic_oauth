@@ -1,4 +1,4 @@
-import _secrets
+import _secrets as secrets
 import requests
 from generic_oauth import SpotifyOAuth
 
@@ -14,4 +14,4 @@ def api_call(access_data, endpoint):
 
 o = SpotifyOAuth(secrets.client_id, secrets.client_secret, secrets.redirect_uri, secrets.scope_string)
 access_data = o.get_access_code()
-print api_call(access_data, '/me')
+print(api_call(access_data, '/me'))
