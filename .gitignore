@@ -1,2 +1,5 @@
 _secrets.py
 *.pyc
+build/
+dist/
+generic_oauth.egg-info/
