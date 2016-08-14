@@ -18,12 +18,16 @@ The following implementations included:
 ## Sample Usage
 
 ```
-import secrets
 import requests
 from generic_oauth import SpotifyOAuth
 
+client_id = '<your info here>'
+client_secret = '<your info here>'
+redirect_uri = 'http://localhost:5555'
+scope_string = '<your info here>'
+
 # Get a spotify access_token in just 2 lines. 
-o = SpotifyOAuth(secrets.client_id, secrets.client_secret, secrets.redirect_uri, secrets.scope_string)
+o = SpotifyOAuth(client_id, client_secret, redirect_uri, scope_string)
 access_data = o.get_access_code()
 
 headers = {'Authorization': 'Bearer ' + access_data['access_token']}
